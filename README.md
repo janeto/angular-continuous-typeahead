@@ -1,4 +1,4 @@
-AngularJS Typeahead directive
+AngularJS Continuous Typeahead directive
 ===============
 
 A simple Angular.js directive wrapper around the Twitter Typeahead library which supports continuous suggestion.
@@ -11,10 +11,10 @@ Getting Started
 How you acquire angular-typeahead is up to you.
 
 Preferred method:
-* Install with [Bower][bower]: `$ bower install janeto-angular-typeahead`
+* Install with [Bower][bower]: `$ bower install angular-continuous-typeahead`
 
 Other methods:
-* Download latest *[dist/angular-typeahead.js][angular-typeahead.js]* or *[dist/angular-typeahead.min.js][angular-typeahead.min.js]*.
+* Download latest *[dist/angular-continuous-typeahead.js][angular-continuous-typeahead.js]* or *[dist/angular-continuous-typeahead.min.js][angular-continuous-typeahead.min.js]*.
 
 **Note:** angular-typeahead.js has dependencies on the following libraries:
 * [typeahead.js][typeahead.js] v0.11.x
@@ -22,7 +22,7 @@ Other methods:
 * [Angular.js][angularjs]
 * [jQuery][jquery] v1.9+
 
-All of which must be loaded before *janeto-angular-typeahead.js*.
+All of which must be loaded before *angular-continuous-typeahead.js*.
 
 Demo
 ---------------
