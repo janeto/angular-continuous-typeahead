@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Angular Typeahead Demo App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../dist/angular-typeahead.min.css"/>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body ng-controller="MainController">
+<h3>Demo:</h3>
+
+<p>Suggestion items: </p>
+<input type="text" ng-model="newItem" placeholder="Enter new suggestion item">
+<button ng-click="addSuggestionItem()">Add</button>
+<p>{{ typeaheadSource }}</p>
+
+<input type="text" ng-model="textInput" typeahead="typeaheadSource" style="width: 350px;" placeholder="Type something here (Ex: name)">
+
+<p>Result: {{ textInput }}</p>
+
+<h3>Source code:</h3>
+<h4>JS:</h4>
+<pre>
+    var app = angular.module('demoApp', ['angular-typeahead']);
+
+    app.controller('MainController', ['$scope', function ($scope) {
+        $scope.typeaheadSource = ['name', 'ip', 'host name', 'sever name'];
+    }]);
+</pre>
+<br/>
+
+<h4>HTML:</h4>
+<pre>
+    &lt;input type="text" ng-model="textInput" typeahead="typeaheadSource"&gt;
+</pre>
+<br/>
+
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="bower_components/typeahead.js/dist/typeahead.bundle.min.js"></script>
+<script type="text/javascript" src="../dist/angular-typeahead.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
