@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "homepage": "https://github.com/janeto/angular-typeahead",
   "license": "MIT",
-  "private": true,
+  "private": false,
+  "main":"dist/angular-continuous-typeahead.min.js",
   "dependencies": {
     "angular": "1.2.x",
     "typeahead.js": "0.11.x",
