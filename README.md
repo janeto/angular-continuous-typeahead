@@ -8,7 +8,7 @@ License: [MIT](http://www.opensource.org/licenses/mit-license.php)
 Getting Started
 ---------------
 
-How you acquire angular-typeahead is up to you.
+How you acquire angular-continuous-typeahead is up to you.
 
 Preferred method:
 * Install with [Bower][bower]: `$ bower install angular-continuous-typeahead`
@@ -48,7 +48,7 @@ The bare bones:
 
 ```html
 <head>
-    <link rel="stylesheet" href="angular-typeahead.min.css"/>
+    <link rel="stylesheet" href="angular-continuous-typeahead.min.css"/>
 </head>
 
 <body ng-controller="MainController">
@@ -57,13 +57,13 @@ The bare bones:
 <script type="text/javascript" src="angular.js"></script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="typeahead.bundle.min.js"></script>
-<script type="text/javascript" src="angular-typeahead.min.js"></script>
+<script type="text/javascript" src="angular-continuous-typeahead.min.js"></script>
 </body>
 ```
 
 ```javascript
 // Define your own controller somewhere...
-var app = angular.module('demoApp', ['angular-typeahead']);
+var app = angular.module('demoApp', ['angular-continuous-typeahead']);
 
 app.controller('MainController', ['$scope', function ($scope) {
     $scope.typeaheadSource = ['name', 'ip', 'host name', 'sever name'];
@@ -71,8 +71,8 @@ app.controller('MainController', ['$scope', function ($scope) {
 ```
 
 <!-- assets -->
-[angular-typeahead.js]: https://raw.github.com/janeto/angular-typeahead/master/dist/angular-typeahead.js
-[angular-typeahead.min.js]: https://raw.github.com/janeto/angular-typeahead/master/dist/angular-typeahead.min.js
+[angular-continuous-typeahead.js]: https://raw.github.com/janeto/angular-typeahead/master/dist/angular-typeahead.js
+[angular-continuous-typeahead.min.js]: https://raw.github.com/janeto/angular-typeahead/master/dist/angular-typeahead.min.js
 
 <!-- links to third party projects -->
 [bower]: http://twitter.github.com/bower/

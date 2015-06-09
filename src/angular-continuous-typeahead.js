@@ -1,6 +1,6 @@
 'use strict';
 
-var angularTypeahead = angular.module('angular-typeahead', []);
+var angularTypeahead = angular.module('angular-continuous-typeahead', []);
 
 angularTypeahead.directive('typeahead', function () {
     return {

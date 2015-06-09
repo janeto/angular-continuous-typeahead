@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('demoApp', ['angular-typeahead']);
+var app = angular.module('demoApp', ['angular-continuous-typeahead']);
 
 app.controller('MainController', ['$scope', function ($scope) {
     $scope.typeaheadSource = ['name', 'ip', 'host name', 'sever name'];
