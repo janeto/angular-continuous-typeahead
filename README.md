@@ -16,7 +16,7 @@ Preferred method:
 Other methods:
 * Download latest *[dist/angular-continuous-typeahead.js][angular-continuous-typeahead.js]* or *[dist/angular-continuous-typeahead.min.js][angular-continuous-typeahead.min.js]*.
 
-**Note:** angular-typeahead.js has dependencies on the following libraries:
+**Note:** angular-continuous-typeahead.js has dependencies on the following libraries:
 * [typeahead.js][typeahead.js] v0.11.x
 * [bloodhound.js][typeahead.js] v0.11.x
 * [Angular.js][angularjs]
@@ -71,8 +71,8 @@ app.controller('MainController', ['$scope', function ($scope) {
 ```
 
 <!-- assets -->
-[angular-continuous-typeahead.js]: https://raw.github.com/janeto/angular-typeahead/master/dist/angular-typeahead.js
-[angular-continuous-typeahead.min.js]: https://raw.github.com/janeto/angular-typeahead/master/dist/angular-typeahead.min.js
+[angular-continuous-typeahead.js]: https://raw.github.com/janeto/angular-continuous-typeahead/master/dist/angular-continuous-typeahead.js
+[angular-continuous-typeahead.min.js]: https://raw.github.com/janeto/angular-continuous-typeahead/master/dist/angular-continuous-typeahead.min.js
 
 <!-- links to third party projects -->
 [bower]: http://twitter.github.com/bower/
